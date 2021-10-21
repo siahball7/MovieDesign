@@ -228,6 +228,9 @@ body{
     transform: translateX(-20px);
     transition: all 1s ease-in-out;
 }
+.featured-content.active{
+    background: linear-gradient(to bottom, rgba(0,0,0,0), white);
+}
 
 @media only screen and (max-width: 940px){
     .menu-container{
