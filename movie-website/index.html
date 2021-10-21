@@ -1,5 +1,7 @@
 <!doctype html
-<html land="en"> 
+<html lang="en"> 
+
+<!--Head, metas, fonts, and css links-->
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,10 +13,13 @@
     <script src="https://kit.fontawesome.com/8c3e8d0c8b.js" crossorigin="anonymous"></script>
     <title>Movie Design</title>
 </head>
+
 <body>
+
+<!--Navbar-->
     <div class="navbar">
         <div class="navbar-container">
-            <div class="logo-container"><h1 class="logo">flakes</h1></div>
+            <div class="logo-container"><h1 class="logo">Josiah-flix</h1></div>
             <div class="menu-container">
                 <ul class="menu-list">
                     <li class="menu-list-item active">Home</li>
@@ -24,12 +29,16 @@
                     <li class="menu-list-item">Trends</li>
                 </ul>
             </div>
+
+<!--Profile-->
             <div class="profile-container">
                 <i class="far fa-user"></i>
                 <div class="profile-text-container">
                     <span class="profile-text">Profile</span>
                     <i class="fas fa-caret-down"></i>
                 </div>
+
+<!--Dark/light mode toggle-->
                 <div class="toggle">
                     <i class="fas fa-moon toggle-icon"></i>
                     <i class="fas fa-sun toggle-icon"></i>
@@ -38,6 +47,8 @@
             </div>
         </div>
     </div>
+
+<!--Sidebar-->
     <div class="sidebar">
         <i class="left-menu-icon fas fa-search"></i>
         <i class="left-menu-icon fas fa-home"></i>
@@ -47,7 +58,11 @@
         <i class="left-menu-icon fas fa-hourglass-start"></i>
         <i class="left-menu-icon fas fa-shopping-cart"></i>
     </div>
+
+<!--Movie selection menu-->
     <div class="container">
+
+<!--New releases-->
         <div class="content-container">
             <div class="featured-content"
             style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
@@ -100,6 +115,8 @@
                 </div>
             </div>
         </div>
+
+<!--Trending-->
         <div class="content-container">
             <div class="featured-content"
             style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
@@ -152,6 +169,8 @@
                 </div>
             </div>
         </div>
+
+<!--Popular-->
         <div class="content-container">
             <div class="movie-list-container">
                 <h1 class="movie-list-title">POPULAR</h1>
@@ -198,6 +217,8 @@
                 </div>
             </div>
         </div>
+
+<!--Watch again-->
         <div class="content-container">
             <div class="movie-list-container">
                 <h1 class="movie-list-title">WATCH AGAIN</h1>
@@ -245,6 +266,8 @@
             </div>
         </div>
     </div>
+
+<!--JavaScript link-->
     <script src="app.js"></script>
 </body>
 </html>
